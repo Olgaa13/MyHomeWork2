@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 void task1()
 {
-    int number = new Random().Next(100, 1000);
+    int number = new Random().Next(100, 999);
     Console.WriteLine(number);
     int result = (number / 10) % 10;
     Console.Write($"{result}");
